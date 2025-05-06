@@ -1,0 +1,39 @@
+
+.form-container{
+   padding-top: 10px;
+   margin: 6%;
+}
+.form-box{
+   width:auto;
+   height: 800px;
+   position: absolute;
+   top: 50%;
+   margin: 6% auto;
+   right:  10%;
+   padding: 40px;
+   transform: translate(-20%, -50%);
+   box-sizing: border-box;  
+ }
+ a{
+   color: #555555;
+   text-decoration:  none;
+ }
+ h1{
+   font-size: 30px;
+   color:#00a991;
+ }
+ .form label{
+   font-weight: 600;
+   padding: 10px;
+   color: #000;
+ }
+ .form-label{
+   color: #000;
+   font-weight: 600;
+   padding-top:5px;
+}
+.button-container{
+   padding-top: 20px;
+   padding-left: 215px;
+}
+  
