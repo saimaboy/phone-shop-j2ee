@@ -1,7 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <%@page import="java.sql.*, jakarta.servlet.http.*, jakarta.servlet.*"%>
-<%@ page import="java.sql.*, java.util.*,java.net.URLEncoder" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,38 +128,7 @@
             </div>
         </div>
 
-        <!-- Display User's Orders -->
-        <div class="order-history-section">
-            <h2>Order History</h2>
-            <table class="order-history-table">
-                <thead>
-                    <tr>
-                        <th>Order ID</th>
-                        <th>Date</th>
-                        <th>Status</th>
-                        <th>Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <% 
-                        ResultSet orders = (ResultSet) request.getAttribute("orderHistory");
-                        while (orders != null && orders.next()) {
-                            int orderId = orders.getInt("order_id");
-                            String orderDate = orders.getString("order_date");
-                            String orderStatus = orders.getString("order_status");
-                            double total = orders.getDouble("total");
-                    %>
-                    <tr>
-                        <td><%= orderId %></td>
-                        <td><%= orderDate %></td>
-                        <td><%= orderStatus %></td>
-                        <td>$<%= total %></td>
-                    </tr>
-                    <% } %>
-                </tbody>
-            </table>
-        </div>
-    </div>
+        
 
     <%@include file="./components/footer.jsp" %>
 </body>

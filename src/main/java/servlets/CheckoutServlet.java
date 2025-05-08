@@ -8,15 +8,15 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class CheckoutServlet extends HttpServlet {
 
     /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	// Initialize your Stripe secret key
+     * 
+     */
+    private static final long serialVersionUID = 1L;
+    // Initialize your Stripe secret key
     private static final String STRIPE_SECRET_KEY = "sk_test_51R7IsZFKBuG4KLiqTfZQ1WKUE5C7wlFOrWHg813Nv5uTr3SSTU2BqaUkMbmgh13saKHsinK0TWA5xdCwwtLcxQzs00udJJUKfa";
 
     // Set up your Stripe configuration
@@ -35,20 +35,26 @@ public class CheckoutServlet extends HttpServlet {
         long amount = Math.round(cartTotal * 100);  // Convert total to cents
         
         try {
+            // Create an ArrayList to hold line items dynamically
+            ArrayList<SessionCreateParams.LineItem> lineItems = new ArrayList<>();
+
+            // Add a sample line item (you can replace this with dynamic items)
+            lineItems.add(SessionCreateParams.LineItem.builder()
+                    .setPriceData(
+                            SessionCreateParams.LineItem.PriceData.builder()
+                                    .setCurrency("usd")
+                                    .setUnitAmount(amount)
+                                    .build()
+                    )
+                    .setQuantity(1L)
+                    .build());
+
+            // Add more line items as needed
+            // lineItems.add(anotherLineItem);  // Example: Add another line item dynamically
+
             // Create a Stripe Checkout session
             SessionCreateParams params = SessionCreateParams.builder()
-                    .setPaymentMethodTypes(Arrays.asList("card"))  // Correct usage of Arrays.asList
-                    .setLineItems(Arrays.asList(
-                            SessionCreateParams.LineItem.builder()
-                                    .setPriceData(
-                                            SessionCreateParams.LineItem.PriceData.builder()
-                                                    .setCurrency("usd")
-                                                    .setUnitAmount(amount)
-                                                    .build()
-                                    )
-                                    .setQuantity(1L)
-                                    .build()
-                    ))
+                    .setLineItems(lineItems) // Use the ArrayList of line items
                     .setMode(SessionCreateParams.Mode.PAYMENT)
                     .setSuccessUrl("http://localhost:8080/success.jsp")  // Redirect on success
                     .setCancelUrl("http://localhost:8080/cancel.jsp")    // Redirect on cancellation
