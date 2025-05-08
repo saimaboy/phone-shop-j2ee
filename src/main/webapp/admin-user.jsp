@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/root.css">
 </head>
 <body>
-    <%@include file="./components/nav.jsp" %>
+    <%@include file="./components/admin_nav.jsp" %>
     <div class="main-wrapper">
         <div class="container-fluid">
             <h2 class="section-title"><i class="fa-solid fa-users"></i> Manage Users</h2>

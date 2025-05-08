@@ -79,9 +79,9 @@ public class EditUserServlet extends HttpServlet {
         String userStatus = request.getParameter("user_status");
 
         // Database connection settings
-        String dbUrl = "jdbc:mysql://localhost:3306/your_database";  // Update with your DB info
-        String dbUsername = "your_username";  // Update with your DB username
-        String dbPassword = "your_password";  // Update with your DB password
+        String dbUrl = "jdbc:mysql://localhost:3306/phone_shop";  // Update with your DB info
+        String dbUsername = "root";  // Update with your DB username
+        String dbPassword = "12345678";  // Update with your DB password
         
         // Update the user in the database
         Connection conn = null;
