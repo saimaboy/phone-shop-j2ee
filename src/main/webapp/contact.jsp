@@ -1,9 +1,3 @@
-<%-- 
-    Document   : contact new
-    Created on : May 1, 2024, 12:43:41 PM
-    Author     : Acer
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,6 +6,7 @@
         <title>Contact Page</title>
         <%@include file="components/common.jsp" %>
         <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="./css/root.css">
     </head>
     <body>
         <%@include file="components/nav.jsp" %>

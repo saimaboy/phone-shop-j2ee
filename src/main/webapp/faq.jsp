@@ -1,17 +1,13 @@
-<%-- 
-    Document   : faq.jsp
-    Created on : Apr 26, 2024, 11:38:44 AM
-    Author     : HP
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Faq page</title>
-         <%@include file="components/common.jsp" %>
-         <link rel="stylesheet" type="text/css" href="css/faq.css">
+         <%@include file="./components/common.jsp" %>
+         <link rel="stylesheet" type="text/css" href="./css/faq.css">
+          <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/root.css">
 
     </head>
     <body>

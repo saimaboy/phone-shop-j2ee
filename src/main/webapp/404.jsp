@@ -1,9 +1,3 @@
-<%-- 
-    Document   : 404
-    Created on : Apr 29, 2024, 10:30:21 PM
-    Author     : MC DODANGODA
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
    String message =(String)session.getAttribute("message");
    if(message!=null)

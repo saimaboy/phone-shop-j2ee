@@ -1,17 +1,12 @@
-<%-- 
-    Document   : about
-    Created on : Apr 26, 2024, 3:49:23 AM
-    Author     : USER
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>about Page</title>
-        <%@include file="components/common.jsp" %>
-        <link rel="stylesheet" href="css/about.css"/>
+        <%@include file="./components/common.jsp" %>
+        <link rel="stylesheet" href="./css/about.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/root.css">
     </head>
     <body>
         
@@ -102,7 +97,7 @@
 <!-- Bootstrap JavaScript CDN -->
 
 
-        <%@include file="components/footer.jsp" %>
+        <%@include file="./components/footer.jsp" %>
      
     </body>
 </html>

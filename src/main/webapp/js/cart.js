@@ -1,19 +1,13 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/JavaScript.js to edit this template
- */
-
-function sendPostRequest(id) {
-    var form = document.createElement("form");
-    form.method = "POST";
-    form.action = "DeleteItemServlet";
-    var hiddenField = document.createElement("input");
-    hiddenField.type = "hidden";
-    hiddenField.name = "id";
-    hiddenField.value = id;
-    form.appendChild(hiddenField);
-    document.body.appendChild(form);
-    form.submit();
-    document.body.removeChild(form);
+function removeItem(cartId) {
+    // Send POST request to remove item from cart
+    console.log(`Removing item with ID: ${cartId}`);
+    // Add your AJAX or form submission logic here
 }
 
+function changeText(dynamicId, itemPrice) {
+    // Get the new quantity value
+    let quantity = document.getElementById(`textInput${dynamicId}`).value;
+    let subtotal = itemPrice * quantity;
+    document.getElementById(`subPrice${dynamicId}`).innerText = `Rs.${subtotal}.00`;
+    // Optionally, update the total cart value
+}

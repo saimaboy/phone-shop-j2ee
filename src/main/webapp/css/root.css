@@ -12,6 +12,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
   --primary-color: #00A991;
   --primary-color-active: #008774;
   --primary-color-dark: #006557;
+   --danger-color: #ff8080;
+  --danger-color-active: #ff0000;
+  --danger-color-dark: #804040;
   --secondary-color: #B0E4DD;
   --text-primary-color: #009883;
   --text-secondary-color: #000000;
@@ -61,7 +64,7 @@ a {
   min-height: calc(100vh - 60px);
   justify-content: space-between;
   overflow-x: hidden;
-  margin-top: 3.7rem;
+  margin-top: 5rem;
   background: white;
 }
 
@@ -85,7 +88,26 @@ a {
 .btn-primary:active {
   transform: scale(0.98);
 }
+.btn-danger {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  color: var(--text-light-color);
+  background-color: var(--danger-color);
+  border-color: red;
+  transition: all 0.3s ease-in-out;
+}
+.btn-danger:hover {
+  background-color: var(--danger-color-active);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
 
+
+
+.btn-danger:active {
+  transform: scale(0.98);
+}
 
   .footer{
     background-color:var(--primary-color-dark) ;
