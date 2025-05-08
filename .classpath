@@ -38,32 +38,30 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/java/lib jar/jakarta.servlet.jsp.jstl-api-2.0.0-RC1.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/javax.servlet-3.1.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/jstl-api-1.2.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/junit-4.13.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/mysql-connector-java-5.1.48.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/mysql-connector-java-5.1.48-bin.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib jar/servlet-api.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/classmate-1.5.1.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/hibernate-validator-6.2.1.Final.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/hibernate-validator-annotation-processor-6.2.1.Final.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/hibernate-validator-cdi-6.2.1.Final.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/jakarta.el-3.0.3.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/jakarta.persistence-api-2.2.3.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/jakarta.servlet-api-5.0.0.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/jakarta.validation-api-2.0.2.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/jboss-logging-3.4.1.Final.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/joda-time-2.9.7.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/log4j-core-2.16.0.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/mysql-connector-java-8.0.26.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/paranamer-2.8.jar"/>
-	<classpathentry kind="lib" path="F:/java/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/stripe-java-20.128.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/hibernate-validator-6.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/hibernate-validator-annotation-processor-6.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/hibernate-validator-cdi-6.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jakarta.el-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jakarta.persistence-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jakarta.servlet.jsp.jstl-api-2.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jakarta.servlet-api-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/javax.servlet-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jboss-logging-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/log4j-core-2.16.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/paranamer-2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acer/OneDrive/Desktop/All Projects/phone-shop-j2ee/lib/stripe-java-20.128.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
