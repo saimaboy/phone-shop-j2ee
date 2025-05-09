@@ -50,7 +50,7 @@ public class LoginServlet extends HttpServlet {
                 } else if ("admin".equalsIgnoreCase(userType)) {
                     response.sendRedirect("admin-dashboard.jsp?user_id=" + userIdStr); // Redirect to admin dashboard with user_id
                 } else if ("employee".equalsIgnoreCase(userType)) {
-                    response.sendRedirect("employee-dashboard.jsp?user_id=" + userIdStr); // Redirect to employee dashboard with user_id
+                    response.sendRedirect("employee-product.jsp?user_id=" + userIdStr); // Redirect to employee dashboard with user_id
                 } else if ("supplier".equalsIgnoreCase(userType)) {
                     response.sendRedirect("supplier-dashboard.jsp?user_id=" + userIdStr); // Redirect to supplier dashboard with user_id
                 } else {

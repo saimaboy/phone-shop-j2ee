@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, jakarta.servlet.http.*, jakarta.servlet.*"%>
+<%@ page import="java.sql.*, java.util.*,java.net.URLEncoder" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,7 +83,7 @@
             <div class="col-md-6 form-container">
                 <div class="form-box">
                     <h1>Edit Your Profile</h1>
-                    <form action="UpdateProfile" method="post">
+                    <form action="UpdateProfileServlet" method="post">
                         <input type="hidden" name="user_id" value="<%= request.getParameter("user_id") %>">
                         <div class="row g-3">
                             <div class="input-container col-lg-6">
