@@ -1,0 +1,145 @@
+
+h6{
+    color:#00A991
+}
+span{
+    color: #9f9f9f;
+}
+.rating{
+    color:#FFAD33;
+    
+}
+.item .content {
+  margin-left: 100px;
+  
+ 
+ .item .main-image{
+    margin-left: 100px;  
+ } 
+  
+}
+.discount{
+    position: absolute;
+    background-color: #DB4444;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 10px;
+} 
+.product-container {
+    display: flex; 
+    align-items: center; 
+    padding-top: 80px;
+  }
+
+.quantity-selector input {
+    width: 30px;
+    padding: 5px; 
+  }
+  
+  .add-to-cart .quantity-selector.inline {
+    display: inline-flex; 
+  }
+  
+  .add-to-cart .quantity-selector.inline label {
+    margin-right: 5px; 
+  }
+  
+  .add-to-cart .quantity-selector.inline input,
+  .add-to-cart .quantity-selector.inline button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+  .transparent-button {
+    background-color: transparent;
+    border: none; 
+    color: inherit;
+    cursor: pointer; 
+  }
+  
+  .plus, .minus {
+    background-color: #00A991;
+    color: white;
+    padding: 5px; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .quantity-selector, .add-to-cart {
+    width: auto;
+    margin: 0 10px; 
+    text-align: center;
+      
+  }
+  .add-to-cart button {
+    background-color: #cd0920;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delivery-info {
+    border: 1px solid #9f9f9f; 
+    padding: 10px; 
+    margin: 10px; 
+    align-items: center;
+  }
+  
+  .tittle-box{
+    color: #00A991;
+  }
+  .product .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 0;
+    
+}
+.product .card{
+    width: 15rem;
+    border: 1px;
+    margin: 10px 30px 10px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px var(--shadow-dark);
+    position: relative;
+}
+.card .card-img-top{
+    height:200px;
+}
+.card-footer .fa{
+    color: #007f6d;
+    padding: 7px;
+}
+.card-tittle .h5{
+    font-weight: 400;
+}
+.tittle-box-button{
+        background-color: #b0e4dd; 
+        border: none;
+        color: #004c41;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+.tittle-box-button{
+    float:right;
+}
+.tittle-box-button:hover{
+    background-color: #009883;
+}
+ .fa-star,
+ .fa-star-half{
+    color:#f57c00;
+ } 
+
+
+
+

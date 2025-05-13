@@ -1,0 +1,224 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 28, 2024, 3:43:03 PM
+    Author     : DELL
+*/
+
+                      /*home css*/
+                      
+
+.header{
+    display: flex;                      
+ }                     
+.header .side-menu{
+    font-size: 15px;
+    background-color:white;
+    margin-left: 30px;
+    height: 40%;
+    display: flex;
+    flex: 0 0 300px;
+    
+} 
+.side-menu ul{
+    margin-top: 40px;
+}
+
+     
+.side-menu ul p a{
+    color: black;
+    font-weight: 300;
+    margin-top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+} 
+.side-menu ul p a:hover{
+    color:#009883;
+}
+.fa-angle-right{
+    margin-top: 2px;
+    float: right; 
+    margin-left: 20px;
+}
+.carousel-wrapper {
+  display: flex; 
+  flex: 1;
+  margin-top:30px;
+  justify-content: flex-end;
+  
+  
+}
+
+#carouselExampleIndicators{
+    margin: auto;
+}
+
+.carousel-wrapper .carousel-inner{
+    width: 850px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.carousel-inner .carousel-item img{
+    height: 300px;
+    border-radius: 8px;
+}
+.carousel-wrapper-mid .carousel-inner-mid{
+    width: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 400px;
+}
+.carousel-inner-mid .carousel-item img{
+    height: 400px;
+    border-radius: 8px;
+}
+
+
+.carousel-indicators{
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+    bottom: 5px;
+}
+
+ .carousel-indicators .indicator-btn {
+  border:none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left:3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.carousel-indicators button.active {
+  background-color: #008774;
+ 
+}
+
+.tittle-box h4{
+    border-left: 15px solid #00a991; 
+    padding: 5px;
+    font-size: 20px;
+    color: #00a991;
+    margin: 10px;
+}
+.tittle-box h1{
+    font-size: 40px;
+    color:#000;
+    margin: 10px;  
+}
+.sales .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 0;
+    
+}
+.sales .card{
+    width: 14.2rem;
+    border: 1px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px var(--shadow-dark);
+    position: relative;
+}
+.card .card-img-top{
+    height:200px;
+}
+.card-footer .fa{
+    color: #007f6d;
+    padding: 7px;
+}
+.card-tittle .h5{
+    font-weight: 400;
+}
+.tittle-box-button{
+        background-color: #b0e4dd; 
+        border: none;
+        color: #004c41;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+.tittle-box-button{
+    float:right;
+}
+.tittle-box-button:hover{
+    background-color: #009883;
+}
+ .fa-star,
+ .fa-star-half{
+    color:#f57c00;
+ } 
+ .category-box{
+     display: flex;
+     flex-wrap :wrap;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .catagerory-button{
+        width: 10rem;
+        background-color: var(--primary-color); 
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 20px;
+        cursor: pointer;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+.catagerory-button:hover {
+    background-color:#006557;
+}
+.catagerory-button-a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}    
+.fa-circle-dot {
+    transition: transform 0.3s ease;
+}
+.icon .row{
+    display: flex;
+    flex-wrap :wrap;
+    
+}
+
+.icon-item {
+    background: #fff;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.icon-item i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.icon-item h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+

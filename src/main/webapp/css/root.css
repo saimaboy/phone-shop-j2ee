@@ -1,0 +1,182 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 20, 2024, 4:20:32 AM
+    Author     : Shadow
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #00A991;
+  --primary-color-active: #008774;
+  --primary-color-dark: #006557;
+   --danger-color: #ff8080;
+  --danger-color-active: #ff0000;
+  --danger-color-dark: #804040;
+  --secondary-color: #B0E4DD;
+  --text-primary-color: #009883;
+  --text-secondary-color: #000000;
+  --bg-light-color: #E6F6F4;
+  --text-light-color: #FAFAFA;
+  --text-light-shade: #e0e0e0;
+  --shadow-dark: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.nav-item .nav-link {
+    color: var(--primary-color-active);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.nav-item .nav-link.active{
+    color: var(--primary-color-dark);
+}
+.nav-item  .cart{
+    color: var(--primary-color);
+}
+.nav-item .cart i{
+    font-size: 27px;
+}
+.nav-item  .count{
+     background:var(--secondary-color); 
+     color:var(--primary-color-dark);
+     width: 18px;
+     height: 18px;
+     transform: translate(40px, 12px);
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px);
+  justify-content: space-between;
+  overflow-x: hidden;
+  margin-top: 5rem;
+  background: white;
+}
+
+.btn-primary {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  color: var(--text-light-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: var(--primary-color-active);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+.btn-danger {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+  color: var(--text-light-color);
+  background-color: var(--danger-color);
+  border-color: red;
+  transition: all 0.3s ease-in-out;
+}
+.btn-danger:hover {
+  background-color: var(--danger-color-active);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.btn-danger:active {
+  transform: scale(0.98);
+}
+
+  .footer{
+    background-color:var(--primary-color-dark) ;
+    
+  }
+
+
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col{
+    width:20%;
+    padding: 15px;
+  
+  }
+  .footer-col h3{
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    color:var(--text-light-color);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4{
+    padding-right: 4px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    color:var(--text-light-shade);
+    margin-bottom: 25px;
+    font-weight: 400;
+    position: relative; 
+  }
+  .footer-col ul li{
+    margin-bottom: 10px;
+  }
+  .footer-col ul{
+    list-style: none;
+  }
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#4a148c;
+    text-decoration: none;
+    font-weight: 300px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a :hover{
+    color:black;
+    padding-left: 5px; 
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: var(--primary-color);
+    margin: 0 15px 15px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    
+    background-color: var(--text-secondary-color);
+}
+.footer-bottom{
+    color: var(--text-light-shade);
+}
+
